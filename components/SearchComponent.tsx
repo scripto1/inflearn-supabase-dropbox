@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Input } from "@material-tailwind/react";
+import { Input } from "@material-tailwind/react";
 
 export default function SearchComponent({ searchInput, setSearchInput }) {
   return (

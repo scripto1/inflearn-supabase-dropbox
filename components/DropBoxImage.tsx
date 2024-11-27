@@ -19,6 +19,7 @@ export default function DropBoxImage({ image }) {
       <picture>
         <img
           src={getImageUrl(image.name)}
+          alt={image.name}
           className="w-full rounded-lg aspect-square object-cover"
         />
       </picture>

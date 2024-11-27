@@ -1,14 +1,13 @@
 "use client";
 
-import { Button, Spinner } from "@material-tailwind/react";
+import { Spinner } from "@material-tailwind/react";
 import { useMutation } from "@tanstack/react-query";
 import { uploadFile } from "actions/storageActions";
 import { queryClient } from "app/config/ReactQueryClientProvider";
-import { useCallback, useRef } from "react";
+import { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 
 export default function DragnDropZone() {
-  const fileRef = useRef(null);
   const uploadImageMutation = useMutation({
     mutationFn: uploadFile,
     onSuccess: () => {

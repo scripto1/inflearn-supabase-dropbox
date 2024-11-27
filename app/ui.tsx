@@ -4,7 +4,6 @@ import DragnDropZone from "components/DragnDropZone";
 import DropBoxImageList from "components/DropBoxImageList";
 import Logo from "components/Logo";
 import SearchComponent from "components/SearchComponent";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function UI() {
