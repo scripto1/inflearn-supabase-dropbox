@@ -1,16 +1,20 @@
+"use client";
+
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Logo() {
   return (
     <section className="flex items-center gap-2">
-      <Image
-        src="/images/dropbox-logo.svg"
-        alt="logo"
-        width={50}
-        height={30}
-        className="!w-10 !h-auto"
-      />
-      <h1 className="pt-1 font-black text-3xl text-deep-purple-500">Minibox</h1>
+      <Link href="/">
+        <Image
+          src="/images/tmdbflix_logo.webp"
+          alt="TMDBFLIX Logo"
+          width={50}
+          height={30}
+          className="!w-20 !h-auto"
+        />
+      </Link>
     </section>
   );
 }
