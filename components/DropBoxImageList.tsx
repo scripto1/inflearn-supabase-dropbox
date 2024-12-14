@@ -13,7 +13,6 @@ export default function DropBoxImageList({ searchInput }) {
 
   return (
     <section className="grid md:grid-cols-3 lg:grid-cols-4 grid-cols-2 gap-2">
-      {/* @ts-ignore */}
       {searchImagesQuery.isLoading && <Spinner />}
       {searchImagesQuery.data &&
         searchImagesQuery.data.map((image) => (

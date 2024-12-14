@@ -1,8 +1,8 @@
 import UI from "./ui";
 
 export const metadata = {
-  title: "Inflearngram",
-  description: "Instagram clone project",
+  title: "TMDBFLIX",
+  description: "Netflix clone using TMDB API",
 };
 
 export default function Home() {
